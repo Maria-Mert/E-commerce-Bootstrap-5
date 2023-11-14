@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&display=swap');
+
+/* menu */
+
+nav{
+    background-color:   #eeeeee9f;
+}
+.navbar-brand{
+    font-family:'Agbalumo', sans-serif;
+    font-size: 25px;
+}
+
+
+/* carrito de compras */
+.carrito {
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    max-height: 80vh;
+    overflow-y: auto;
+    display: none;
+}
+
+.mostrar {
+    display: block;
+}
+
+.carrito-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#lista-carrito {
+    list-style: none;
+    padding: 0;
+}
+
+#lista-carrito li {
+    margin-bottom: 10px;
+}
+
+#total {
+    font-weight: bold;
+}
+
